@@ -18,6 +18,7 @@ cout << " eyes " << Ugly.eyes << endl;
 cout << " ears " << Ugly.ears << endl;
 cout << " nose " << Ugly.nose << endl;
 cout << " mouth " << Ugly.mouth << endl;
+ 
 
  return 0;
 }
