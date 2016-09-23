@@ -42,4 +42,4 @@ coinToPennies = (coinValue%1)/1;
 cout <<"amount at the beggining" << amount Recieved; 
 cout << numQuarter << "dimeValue" << endl;
 
-} 
+}
