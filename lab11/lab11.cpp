@@ -1,10 +1,15 @@
 // Income Taxt calculator Hugo Allende Octuber-04-2016
 //using if else revised                Octuber-14-2016
-//                                     octuber-19-2016
+//                                     Octuber-19-2016
 
 #include <iostream>
 using namespace std;
+//
 
+
+
+
+int main() {          
    int Wages = 0;
    int Interest = 0;
    int UnEmployment = 0;
@@ -15,13 +20,11 @@ using namespace std;
    string EmployName;
 
 
-
-int main() {
    cout << "enter employ name ";
       getline( cin, EmployName);
 
 
-    cout << "enter Wages ";                              //GET THE VALUES ENTERED BY THE USER.
+    cout << "enter Wages ";                              //GET THE VALUES ENTERED BY THE USER, like wages ammount, interest, umenploymet etc,
     cin >> Wages;
 
     cout << "enter Interest ";
@@ -33,7 +36,7 @@ int main() {
     cout << "enter amount withheld ";
     cin >> Withheld;
 
-cout << "enter marital status single 1, and married 2 ";
+cout << "enter marital status single 1, and married 2 "; // set the marital status 1= single 2= married
 cin >> single;
 
 AdjustIncome= Wages+ Interest+UnEmployment;
