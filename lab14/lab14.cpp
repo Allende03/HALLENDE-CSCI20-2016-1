@@ -6,9 +6,9 @@ using namespace std;
 
 int main(){
 
+
 double a, m, r; // Input amount, payment,
 int y, I;  //interest rate, and number of years
-cout << "Enter the amount borrowed: ";
 cin >> a;
 //cout<<a;
 cout << "Enter the monthly payment you'll make: ";
